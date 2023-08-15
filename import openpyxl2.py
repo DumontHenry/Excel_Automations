@@ -1,7 +1,7 @@
 import openpyxl
 import os 
 
-directory = 'C:/Users/henry/OneDrive/Bureau/01-Ainos files/Donnée- Informatique Ainos (POWER BI - SQL - POWER AUTOMATE -DJANGO)/Django/Django Doc/Udemy Cours to publish Github/excel/'
+directory = '..../excel/'
 
 wb= openpyxl.load_workbook(directory+"octobre.xlsx", data_only=True)
 wb1= openpyxl.load_workbook(directory+"novembre.xlsx", data_only=True)
